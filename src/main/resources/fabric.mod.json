@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "double-jump",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Far's Double Jump",
+  "description": "Double Jump",
   "authors": [
-    "Me!"
+    "PseudoDistant"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.youtube.com/channel/UCNW_V3BfkWXcMtCEIGQyaBA",
+    "issues": "https://github.com/PseudoDistant/Minecraft-Double-Jump/issues",
+    "sources": "https://github.com/PseudoDistant/Minecraft-Double-Jump"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "LGPL-3.0",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "io.github.pseudodistant.doublejump.DoubleJump"
     ]
   },
   "mixins": [
